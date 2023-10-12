@@ -1,0 +1,15 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(https://media.tenor.com/RWJlrcyxAvgAAAAC/makiplays-retrowave.gif);
+    background-position: center;
+    color: white;
+    font-size: 30px;
+  }
+
+  h1 {
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+  }
