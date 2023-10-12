@@ -1,21 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/global.css">
 
     <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <header><nav></nav></header>
 
-    <main></main>
-    
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <h2>Welcome to Synthwave Paradise</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">All Things Synthwave</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Checkout</a>
+                        </li>
+                    </ul>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://media.tenor.com/9vOPmQ7F1s8AAAAC/retrowave-synthwave.gif"
+                                    class="d-block w-100" alt="synthwave art">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.gifer.com/fxk4.gif" class="d-block w-100" alt="synthwave art">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.tenor.com/UiX3cAoTV8YAAAAd/retrowave.gif" class="d-block w-100"
+                                    alt="synthwave art">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <style>
+        body {
+            background-image: url(https://wallpapercave.com/wp/wp7224578.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <h1>All About the synths</h1>
+    <div class="container text-center">
+        <div class="col">
+            <div class="col">
+                <h3>The History Of Synthwaves</h3>
+                <p id="one">Synthwave is a music genre that emerged in the mid-2000s, characterized by its nostalgic
+                    homage
+                    to the sounds and aesthetics of 1980s electronic and pop culture. It draws inspiration from the
+                    synthesizer-driven soundtracks of iconic movies and video games from that era, as well as the
+                    pulsating beats of early electronic dance music. Synthwave artists often use vintage
+                    synthesizers and drum machines to create a retro-futuristic sound that evokes a sense of
+                    nostalgia for a bygone era. The genre gained popularity through online platforms and social
+                    media, with artists like Kavinsky, College, and Miami Nights 1984 contributing to its rise.
+                    Synthwave's blend of nostalgia and modern production techniques has since spawned numerous
+                    subgenres and a dedicated fan base, making it a prominent and enduring part of contemporary
+                    electronic music culture.</p>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Fun Facts About Synthwave</h4>
+                            <p id="two"> Neon Aesthetics: Synthwave art often features a prominent neon color palette,
+                                with
+                                vibrant pinks,
+                                blues, and purples. This choice of colors is a nod to the neon signs and futuristic
+                                visuals of
+                                the
+                                1980s.
+
+                                80s Pop Culture References: Synthwave artists frequently incorporate references to
+                                iconic 1980s
+                                pop
+                                culture, including movies like "Blade Runner" and "The Terminator," as well as video
+                                games like
+                                "Outrun." These references resonate with fans of the era.
+
+                                Retro Futurism: Synthwave art captures the essence of retro-futurism, blending the
+                                optimism of
+                                how
+                                people in the '80s envisioned the future with the technology of the time. It often
+                                features
+                                elements
+                                like futuristic cityscapes, retro cars, and high-tech gadgets.
+
+                                VHS Tape Aesthetics: To evoke the feel of the '80s, synthwave art sometimes incorporates
+                                VHS
+                                tape
+                                glitches, tracking lines, and scan errors. This adds an authentic retro touch to the
+                                visuals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <h6>The Difference Between Vaporwave and Synthwave</h6>
+                <ul>
+                    <li>Vaporwave-Vaporwave, on the other hand, is known for its slowed-down, often chill and mellow
+                        sound. It
+                        heavily samples music from the '80s and '90s, with an emphasis on smooth jazz, elevator music,
+                        and corporate
+                        muzak. Vaporwave tends to be more experimental, abstract, and ambient in its musical approach.
+                    </li>
+                    <li>Synthwave-Synthwave, also known as retrowave or outrun, is characterized by its nostalgic homage
+                        to the
+                        electronic music of the 1980s. It often features a retro-futuristic sound with prominent
+                        synthesizers, drum
+                        machines, and '80s-inspired melodies. The music aims to capture the essence of that era's pop
+                        culture,
+                        emphasizing energetic, often upbeat tracks.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <footer></footer>
-    
 </body>
+
 </html>

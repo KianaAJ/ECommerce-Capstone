@@ -1,0 +1,83 @@
+
+h2{
+    font-family: monospace;
+    color: #fd80b4;
+    justify-content: center;
+}
+
+h3 { 
+    color: rgb(255, 152, 229);
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    background-image: url(https://i.redd.it/glyffr63wot71.gif);
+    padding: 20px;
+    width: 650px;
+}
+
+
+
+h4 { 
+    color: rgb(255, 152, 229);
+    border-radius: 25px;
+    background-position: top;
+    background-repeat: repeat;
+    background-image: url(https://media.tenor.com/spNJuiRclYsAAAAd/sunset-retro-retro.gif);
+    padding: 20px;
+    width: 650px;
+    height: 100px;
+    align-items: center;
+    margin-left: 650px;
+    
+}
+
+h5 {
+    font-family: monospace;
+}
+
+h6 {
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url(https://i.pinimg.com/originals/44/9e/05/449e058844d89d45822a44c9f5f60fe2.gif);
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+    color: white;
+    font-size: xx-large
+
+}
+
+#one{  
+    color: white;
+    border-radius: 15px 50px 30px;
+    padding: 20px;
+    width: 650px;
+    height: 350px;
+    background-image: linear-gradient(rgb(25, 114, 215), rgb(54, 5, 67));
+    font-size: large;
+    font-family: monospace;
+}
+
+
+#two{
+    color: black;
+    border-radius: 15px 50px 30px;
+    padding: 20px;
+    width: 650px;
+    height: 375px;
+    background-image: linear-gradient(rgb(221, 217, 17), rgb(0, 136, 221));
+    margin-left: 650px;
+    font-size: large;
+    font-family: monospace;
+}
+
+ul {
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    border-radius: 15px 50px 30px;
+    padding: 20px;
+    width: 700px;
+    height: 300px;
+}
