@@ -44,7 +44,8 @@ h6 {
     width: 700px;
     height: 150px;
     color: white;
-    font-size: xx-large
+    font-size: xx-large;
+    margin-left: 275px;
 
 }
 
@@ -72,12 +73,9 @@ h6 {
     font-family: monospace;
 }
 
-ul {
-    color: white;
-    font-size: large;
+
+#four{background-color: rgb(255, 124, 255);
+    color: rgb(161, 0, 81);
+    font-style: italic;
     font-family: monospace;
-    border-radius: 15px 50px 30px;
-    padding: 20px;
-    width: 700px;
-    height: 300px;
 }
